@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Accessibility & UX Packages ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} % Better font for screen readers
+\usepackage{xcolor}  % Color contrast
+\usepackage{amsmath} % Math formulas
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=1in} % Good whitespace for readability
+
+% Accessible hyperlinks
+\definecolor{linkblue}{RGB}{0,86,179} % High contrast link color (WCAG AAA for text)
+\usepackage[
+    colorlinks=true,
+    linkcolor=linkblue,
+    citecolor=linkblue,
+    urlcolor=linkblue,
+    pdftitle={Geotemporal Hydrodynamics: The Unified Fluid Theory},
+    pdfauthor={T. Abram},
+    pdfsubject={Physics, Cosmology},
+    pdfkeywords={Fluid Theory, Gravity, Cosmology},
+    bookmarks=true,
+    pdfdisplaydoctitle=true,
+]{hyperref}
+
+% --- Document Metadata ---
+\title{Geotemporal Hydrodynamics\\ \Large The Unified Fluid Theory}
+\author{T. Abram}
+\date{March 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Geotemporal Hydrodynamics (GTH) proposes that spacetime is a macroscopic quantum superfluid
+rather than an empty geometric manifold. The framework is motivated by the vacuum-energy inconsistency between Quantum Field Theory and standard cosmology, and models the vacuum as a 5D
+viscoelastic substrate with order parameter $\Psi = \rho e^{i\theta}$. In this picture, particles are not point objects
+but stable topological defects (GeoKnots), while gravity emerges as the long-wavelength acoustic
+response of the substrate.
+
+Starting from a covariant hydrodynamic action augmented by Chern--Simons and Wess--Zumino--
+Witten sectors, the manuscript derives coupled continuity--Euler dynamics, an effective acoustic metric,
+and a constitutive map to a Poisson-limit gravitational equation. A closed parameterization is presented
+for effective gravitational coupling and defect-energy mass scaling, including explicit dependence on
+substrate quantities ($m_\psi, \rho_0, c_s, \tau, \eta$). At galactic scales, the theory predicts wake-mediated transport
+and inverse-cascade contributions to rotation support; at compact-object scales, it predicts frequencydependent viscoelastic suppression consistent with ringdown-fidelity constraints.
+
+The theory is framed as falsifiable through three near-term channels: rotation-curve residual tests
+(SPARC), ringdown dispersion/damping constraints (LIGO/Virgo/KAGRA), and analog superfluidvortex experiments that probe topological stability and transport signatures.
+\end{abstract}
+
+\section*{Axiomatic Executive Summary}
+To establish falsifiability and rigorous scale-invariance goals, this treatise develops a mathematical
+program for the following phenomena as testable hydrodynamic constructions requiring full derivation
+and validation:
+
+\begin{itemize}
+    \item \textbf{I. The Grand Unification of Newton’s Constant (G)}\\
+    Gravity is not a fundamental force, but an induced acoustic pressure coupling. A proposed
+    effective expression for Newton’s Gravitational Constant is written in terms of the speed of sound
+    ($c_s$), the reduced Planck constant ($\hbar$), and the squared mass of the substrate scalar mode ($m_\psi$):
+    \begin{equation}
+        G_{eff} = \frac{3\pi\hbar c_s}{4m_\psi^2}
+    \end{equation}
+    This recovers the correct $m^3 kg^{-1} s^{-2}$ dimensionality without auxiliary scaling parameters.
+
+    \item \textbf{II. The Acoustic Derivation of Fundamental Mass ($m_e$)}\\
+    Rest mass is not an intrinsic property; it is the localized Gross-Pitaevskii kinetic bending energy
+    of the substrate. By modeling the Electron as a fundamental Trefoil Knot ($3_1$) bound by a
+    Compton-resonant phase closure, the 0.511 MeV scale is modeled from the background fluid
+    line-tension ($T_{vacuum}$):
+    \begin{equation}
+        m_e = \sqrt{\frac{\rho_0 h^3}{4\pi c^3 m_\psi^2}} \ln(\Lambda)
+    \end{equation}
+
+    \item \textbf{III. The Topological Derivation of the Pauli Exclusion Principle}\\
+    Vortices in standard superfluids are bosonic. However, by augmenting the 5D Master Action with
+    a Wess-Zumino-Witten (WZW) topological framing term, the Finkelstein-Rubinstein theorem
+    can be applied.
+\end{itemize}
+
+\end{document}
